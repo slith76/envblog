@@ -8,8 +8,8 @@ categories:
 ## RVM Quick Install and Use
 
 LINKS:
- RVM Screencast http://screencasts.org/episodes/how-to-use-rvm
- https://rvm.io
++ RVM Screencast http://screencasts.org/episodes/how-to-use-rvm
++ https://rvm.io
 
 INSTALL: 
 	curl -L get.rvm.io | bash -s stable
