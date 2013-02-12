@@ -5,7 +5,7 @@ date: 2013-02-12 13:48
 comments: true
 categories: 
 ---
-# RVM Quick Install and Use
+## RVM Quick Install and Use
 
 RVM Screencast http://screencasts.org/episodes/how-to-use-rvm
 INSTALL: 
