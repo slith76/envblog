@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://slith76.github.com/envblog/atom.xml" rel="self"/>
   <link href="http://slith76.github.com/envblog/"/>
-  <updated>2013-02-12T14:35:52+01:00</updated>
+  <updated>2013-02-12T14:42:35+01:00</updated>
   <id>http://slith76.github.com/envblog/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -51,38 +51,54 @@ rvm system #wieder zurück zum System-Ruby
     <id>http://slith76.github.com/envblog/blog/2013/02/12/creating-a-github-blog-using-octopress</id>
     <content type="html"><![CDATA[<h2>Quick Install and Posting Sample</h2>
 
+<h3>Links:</h3>
+
 <ul>
 <li>https://github.com/imathis/octopress</li>
 <li>HOWTO based on: http://www.tomordonez.com/blog/2012/06/04/creating-a-github-blog-using-octopress/</li>
-<li>mkdir VIMLearningBlog</li>
-<li>INSTALL: git clone git://github.com/imathis/octopress.git octopress</li>
-<li>cd octopress; bundle install</li>
-<li>rake install</li>
-<li>on github: create new repo #envblog</li>
-<li>GITURL: git@github.com:slith76/envblog.git</li>
-<li>rake setup_github_pages</li>
-<li>git remote -v</li>
-<li>git remote add origin git@github.com:slith76/envblog.git</li>
-<li>git branch</li>
-<li>git branch -m master source</li>
-<li>rake preview #http://127.0.0.1:4000/envblog/</li>
-<li>== First push to github:
-<strong> rake generate
-</strong> git add .
-<strong> git commit -am &#8220;First deploy to github.&#8221;
-</strong> git push origin source
-** rake deploy</li>
-<li>== Create a new Posting:
-<strong> rake new_post[&#8220;Creating a Github Blog Using Octopress&#8221;]
-</strong> cd source/_posts/; #edit Posting
-<strong> rake generate
-</strong> git add .
-<strong> git commit -m &#8220;Initial blog post.&#8221;
-</strong> git push origin source
-** rake deploy</li>
-<li>URL: http://slith76.github.com/envblog/</li>
 </ul>
 
+
+<h3>Install:</h3>
+
+<pre><code>mkdir VIMLearningBlog
+git clone git://github.com/imathis/octopress.git octopress
+cd octopress; bundle install
+rake install
+</code></pre>
+
+<p>on github: create new repo #envblog
+GITURL: git@github.com:slith76/envblog.git</p>
+
+<pre><code>rake setup_github_pages
+git remote -v
+git remote add origin git@github.com:slith76/envblog.git
+git branch
+git branch -m master source
+rake preview #http://127.0.0.1:4000/envblog/
+</code></pre>
+
+<h3>First push to github:</h3>
+
+<pre><code>rake generate
+git add .
+git commit -am "First deploy to github."
+git push origin source
+rake deploy
+</code></pre>
+
+<h3>Create a new Posting:</h3>
+
+<pre><code>rake new_post["Creating a Github Blog Using Octopress"]
+cd source/_posts/; #edit Posting
+rake generate
+git add .
+git commit -m "Initial blog post."
+git push origin source
+rake deploy
+</code></pre>
+
+<p>URL: http://slith76.github.com/envblog/</p>
 ]]></content>
   </entry>
   
