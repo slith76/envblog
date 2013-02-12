@@ -4,7 +4,7 @@
   <title><![CDATA[$ env]]></title>
   <link href="http://slith76.github.com/envblog/atom.xml" rel="self"/>
   <link href="http://slith76.github.com/envblog/"/>
-  <updated>2013-02-12T18:27:34+01:00</updated>
+  <updated>2013-02-12T19:18:37+01:00</updated>
   <id>http://slith76.github.com/envblog/</id>
   <author>
     <name><![CDATA[slith76]]></name>
@@ -22,8 +22,8 @@
 
 <ul>
 <li><a href="http://ruby-auf-schienen.de/3.2/">http://ruby-auf-schienen.de/3.2/</a></li>
-<li>Podcast: http://tryruby.org/</li>
-<li>Live ausprobieren: http://tryruby.org/</li>
+<li>Podcast: <a href="http://rubykraut.de/">http://rubykraut.de/</a></li>
+<li>Live ausprobieren: <a href="http://tryruby.org/">http://tryruby.org/</a></li>
 </ul>
 
 ]]></content>
