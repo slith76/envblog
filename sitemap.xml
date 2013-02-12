@@ -1,12 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>
+            http://slith76.github.com/envblog/blog/2013/02/12/creating-a-github-blog-using-octopress/
+        </loc>
+        <lastmod>2013-02-12T13:38:51+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://slith76.github.com/envblog/blog/archives/</loc>
-        <lastmod>2013-02-12T13:15:21+01:00</lastmod>
+        <lastmod>2013-02-12T13:38:51+01:00</lastmod>
     </url>
     <url>
         <loc>http://slith76.github.com/envblog/</loc>
-        <lastmod>2013-02-12T13:15:21+01:00</lastmod>
+        <lastmod>2013-02-12T13:38:51+01:00</lastmod>
     </url>
     <url>
         <loc>http://slith76.github.com/envblog/robots.txt</loc>
