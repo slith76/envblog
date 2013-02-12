@@ -46,4 +46,14 @@ GITURL: git@github.com:slith76/envblog.git
 	git push origin source
 	rake deploy
 
+### Install a new Theme:
+
+	git clone git://github.com/tommy351/Octopress-Theme-Slash.git .themes/slash
+	rake install['slash']
+	rake generate && git add . && git commit -m "Post Update" && git push origin source && rake deploy
+
+#### Themes can be found under:
+http://octopressthemes.com
+https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes 
+
 URL: http://slith76.github.com/envblog/
