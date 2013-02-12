@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://slith76.github.com/envblog/sitemap.xml 
