@@ -9,8 +9,8 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="Hello Octopress!
-">
+  <meta name="description" content="Quick Install and Posting Sample https://github.com/imathis/octopress
+HOWTO based on: http://www.tomordonez.com/blog/2012/06/04/creating-a-github- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -91,7 +91,40 @@
   </header>
 
 
-<div class="entry-content"><p>Hello Octopress!</p>
+<div class="entry-content"><h2>Quick Install and Posting Sample</h2>
+
+<ul>
+<li>https://github.com/imathis/octopress</li>
+<li>HOWTO based on: http://www.tomordonez.com/blog/2012/06/04/creating-a-github-blog-using-octopress/</li>
+<li>mkdir VIMLearningBlog</li>
+<li>INSTALL: git clone git://github.com/imathis/octopress.git octopress</li>
+<li>cd octopress; bundle install</li>
+<li>rake install</li>
+<li>on github: create new repo #envblog</li>
+<li>GITURL: git@github.com:slith76/envblog.git</li>
+<li>rake setup_github_pages</li>
+<li>git remote -v</li>
+<li>git remote add origin git@github.com:slith76/envblog.git</li>
+<li>git branch</li>
+<li>git branch -m master source</li>
+<li>rake preview #http://127.0.0.1:4000/envblog/</li>
+<li>== First push to github:
+<strong> rake generate
+</strong> git add .
+<strong> git commit -am &#8220;First deploy to github.&#8221;
+</strong> git push origin source
+** rake deploy</li>
+<li>== Create a new Posting:
+<strong> rake new_post[&#8220;Creating a Github Blog Using Octopress&#8221;]
+</strong> cd source/_posts/; #edit Posting
+<strong> rake generate
+</strong> git add .
+<strong> git commit -m &#8220;Initial blog post.&#8221;
+</strong> git push origin source
+** rake deploy</li>
+<li>URL: http://slith76.github.com/envblog/</li>
+</ul>
+
 </div>
 
 
