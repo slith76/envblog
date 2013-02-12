@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://slith76.github.com/envblog/atom.xml" rel="self"/>
   <link href="http://slith76.github.com/envblog/"/>
-  <updated>2013-02-12T14:28:58+01:00</updated>
+  <updated>2013-02-12T14:32:00+01:00</updated>
   <id>http://slith76.github.com/envblog/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -20,17 +20,21 @@
     <id>http://slith76.github.com/envblog/blog/2013/02/12/rvm</id>
     <content type="html"><![CDATA[<h2>RVM Quick Install and Use</h2>
 
-<p>LINKS:<br/>
-* RVM Screencast [http://screencasts.org/episodes/how-to-use-rvm]
-* [https://rvm.io]</p>
+<h3>Links:</h3>
 
-<p>INSTALL:</p>
+<ul>
+<li>RVM Screencast <a href="http://screencasts.org/episodes/how-to-use-rvm">http://screencasts.org/episodes/how-to-use-rvm</a></li>
+<li><a href="https://rvm.io">https://rvm.io</a></li>
+</ul>
+
+
+<h3>Install:</h3>
 
 <pre><code>curl -L get.rvm.io | bash -s stable
 source /Users/olif/.rvm/scripts/rvm
 </code></pre>
 
-<p>USE:</p>
+<h3>Use:</h3>
 
 <pre><code>rvm install 1.9.3
 ruby -v
