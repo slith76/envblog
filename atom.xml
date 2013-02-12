@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://slith76.github.com/envblog/atom.xml" rel="self"/>
   <link href="http://slith76.github.com/envblog/"/>
-  <updated>2013-02-12T14:20:08+01:00</updated>
+  <updated>2013-02-12T14:21:09+01:00</updated>
   <id>http://slith76.github.com/envblog/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -18,7 +18,7 @@
     <link href="http://slith76.github.com/envblog/blog/2013/02/12/rvm/"/>
     <updated>2013-02-12T13:48:00+01:00</updated>
     <id>http://slith76.github.com/envblog/blog/2013/02/12/rvm</id>
-    <content type="html"><![CDATA[<h1>RVM Quick Install and Use</h1>
+    <content type="html"><![CDATA[<h2>RVM Quick Install and Use</h2>
 
 <p>RVM Screencast http://screencasts.org/episodes/how-to-use-rvm
 INSTALL:</p>
