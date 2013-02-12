@@ -7,15 +7,16 @@ categories:
 ---
 ## RVM Quick Install and Use
 
-LINKS:  
-* RVM Screencast [http://screencasts.org/episodes/how-to-use-rvm]
-* [https://rvm.io]
+### Links: 
 
-INSTALL: 
+* RVM Screencast [http://screencasts.org/episodes/how-to-use-rvm](http://screencasts.org/episodes/how-to-use-rvm)
+* [https://rvm.io](https://rvm.io)
+
+### Install: 
 	curl -L get.rvm.io | bash -s stable
 	source /Users/olif/.rvm/scripts/rvm
 
-USE: 
+### Use: 
 	rvm install 1.9.3
 	ruby -v
 	rvm use 1.9.3
