@@ -4,7 +4,7 @@
   <title><![CDATA[$ env]]></title>
   <link href="http://slith76.github.com/envblog/atom.xml" rel="self"/>
   <link href="http://slith76.github.com/envblog/"/>
-  <updated>2013-02-12T16:00:42+01:00</updated>
+  <updated>2013-02-12T16:08:32+01:00</updated>
   <id>http://slith76.github.com/envblog/</id>
   <author>
     <name><![CDATA[slith76]]></name>
@@ -97,6 +97,18 @@ git commit -m "Initial blog post."
 git push origin source
 rake deploy
 </code></pre>
+
+<h3>Install a new Theme:</h3>
+
+<pre><code>git clone git://github.com/tommy351/Octopress-Theme-Slash.git .themes/slash
+rake install['slash']
+rake generate &amp;&amp; git add . &amp;&amp; git commit -m "Post Update" &amp;&amp; git push origin source &amp;&amp; rake deploy
+</code></pre>
+
+<h4>Themes can be found under:</h4>
+
+<p>http://octopressthemes.com
+https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes</p>
 
 <p>URL: http://slith76.github.com/envblog/</p>
 ]]></content>
