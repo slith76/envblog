@@ -1,0 +1,17 @@
+---
+layout: post
+title: "RVM"
+date: 2013-02-12 13:48
+comments: true
+categories: 
+---
+RVM:
+
+* RVM Screencast http://screencasts.org/episodes/how-to-use-rvm
+* INSTALL: curl -L get.rvm.io | bash -s stable
+* source /Users/olif/.rvm/scripts/rvm
+* https://rvm.io
+* USE: rvm install 1.9.3
+*      ruby -v
+*      rvm use 1.9.3
+* ->   rvm system #wieder zurück zum System-Ruby
