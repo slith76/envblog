@@ -3,11 +3,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>RVM - $ env</title>
+	<title>$ env</title>
     <meta name="author" content="slith76">
     
-	<meta name="description" content="RVM Quick Install and Use Links: RVM Screencast http://screencasts.org/episodes/how-to-use-rvm
-https://rvm.io Install: curl -L get.rvm.io | bash -s &hellip;">
+	<meta name="description" content="Search Results $('#search_results').tapir({ 'token': '', 'complete' : function() { document.getElementById('search_loading').style.display="none &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -87,52 +86,21 @@ https://rvm.io Install: curl -L get.rvm.io | bash -s &hellip;">
 <div id="toload">
 <!-- begin toload --> 
     <div id="content" class="inner">
-        <article class="post">
-	<h2 class="title">RVM</h2>
-	<div class="entry-content"><h2>RVM Quick Install and Use</h2>
-
-<h3>Links:</h3>
-
-<ul>
-<li>RVM Screencast <a href="http://screencasts.org/episodes/how-to-use-rvm">http://screencasts.org/episodes/how-to-use-rvm</a></li>
-<li><a href="https://rvm.io">https://rvm.io</a></li>
-</ul>
-
-
-<h3>Install:</h3>
-
-<pre><code>curl -L get.rvm.io | bash -s stable
-source /Users/olif/.rvm/scripts/rvm
-</code></pre>
-
-<h3>Use:</h3>
-
-<pre><code>rvm install 1.9.3
-ruby -v
-rvm use 1.9.3
-rvm system #wieder zurück zum System-Ruby
-</code></pre>
+        <h1 class="entry-title"><center>Search Results</center></h1>
+<div id="search_loading" style="margin: 40px 0">
+    <center><img src="/envblog/images/loading.gif"></center>
 </div>
 
-<div class="meta">
-	
+<script type="text/javascript" src="/envblog/javascripts/jquery-tapir.js"></script>
+<div id="search_results" style="display:none">
+<br>
 </div>
-</article>
-
-	<div class="share">
-	<div class="addthis_toolbox addthis_default_style ">
-	
-	
-	<a class="addthis_button_tweet"></a>
-	
-	
-	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-	
-	<a class="addthis_counter addthis_pill_style"></a>
-	</div>
-  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
-</div>
-
+<script>
+         $('#search_results').tapir({
+             'token': '',
+             'complete' : function() { document.getElementById('search_loading').style.display="none"; }
+         });
+</script>
 
 
     </div>
