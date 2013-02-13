@@ -1,0 +1,29 @@
+---
+layout: post
+title: "cdargs"
+date: 2013-02-13 09:43
+comments: true
+categories: 
+---
+## cdargs - bookmarks and browser for cd shell built-in
+
+### Install: 
+
+    brew install cdargs
+
+adjust .bashrc 
+
+    function cv () {
+          cdargs "$1" && cd "`cat "$HOME/.cdargsresult"`" ;
+    }
+
+### Usage
+
+add a new bookmark:
+
+    cdargs -a=:envBlog:/Users/olif/Documents/envBlog/octopress/
+
+switch to a bookmark
+
+    cv envBlog # or cv
+
