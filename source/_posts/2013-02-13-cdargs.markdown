@@ -17,7 +17,7 @@ adjust .bashrc
           cdargs "$1" && cd "`cat "$HOME/.cdargsresult"`" ;
     }
 
-### Usage
+### Usage:
 
 add a new bookmark:
 
