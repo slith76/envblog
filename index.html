@@ -7,9 +7,7 @@
 	<meta name="author" content="slith76">
 
 	
-	<meta name="description" content=" Ruby Ressourcen: http://ruby-auf-schienen.de/3.2/
-Podcast: http://rubykraut.de/
-Live ausprobieren: http://tryruby.org/ Feb 12th, 2013 ">
+	<meta name="description" content="cdargs - bookmarks and browser for cd shell built-in Install: brew install cdargs adjust .bashrc function cv () { cdargs "$1" &amp;&amp; cd "`cat "$ &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -92,6 +90,66 @@ Live ausprobieren: http://tryruby.org/ Feb 12th, 2013 ">
 
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/envblog/blog/2013/02/13/cdargs/">
+		
+			Cdargs</a>
+	</h2>
+	<div class="entry-content">
+		<h2>cdargs - bookmarks and browser for cd shell built-in</h2>
+
+<h3>Install:</h3>
+
+<pre><code>brew install cdargs
+</code></pre>
+
+<p>adjust .bashrc</p>
+
+<pre><code>function cv () {
+      cdargs "$1" &amp;&amp; cd "`cat "$HOME/.cdargsresult"`" ;
+}
+</code></pre>
+
+<h3>Usage</h3>
+
+<p>add a new bookmark:</p>
+
+<pre><code>cdargs -a=:envBlog:/Users/olif/Documents/envBlog/octopress/
+</code></pre>
+
+<p>switch to a bookmark</p>
+
+<pre><code>cv envBlog # or cv
+</code></pre>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-13T09:43:00+01:00" pubdate data-updated="true">Feb 13<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+</div>
+	
+</div></article>
 
 
     <article class="post">

@@ -4,7 +4,7 @@
   <title><![CDATA[$ env]]></title>
   <link href="http://slith76.github.com/envblog/atom.xml" rel="self"/>
   <link href="http://slith76.github.com/envblog/"/>
-  <updated>2013-02-12T19:18:37+01:00</updated>
+  <updated>2013-02-13T10:02:53+01:00</updated>
   <id>http://slith76.github.com/envblog/</id>
   <author>
     <name><![CDATA[slith76]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[cdargs]]></title>
+    <link href="http://slith76.github.com/envblog/blog/2013/02/13/cdargs/"/>
+    <updated>2013-02-13T09:43:00+01:00</updated>
+    <id>http://slith76.github.com/envblog/blog/2013/02/13/cdargs</id>
+    <content type="html"><![CDATA[<h2>cdargs - bookmarks and browser for cd shell built-in</h2>
+
+<h3>Install:</h3>
+
+<pre><code>brew install cdargs
+</code></pre>
+
+<p>adjust .bashrc</p>
+
+<pre><code>function cv () {
+      cdargs "$1" &amp;&amp; cd "`cat "$HOME/.cdargsresult"`" ;
+}
+</code></pre>
+
+<h3>Usage</h3>
+
+<p>add a new bookmark:</p>
+
+<pre><code>cdargs -a=:envBlog:/Users/olif/Documents/envBlog/octopress/
+</code></pre>
+
+<p>switch to a bookmark</p>
+
+<pre><code>cv envBlog # or cv
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ruby lernen]]></title>
