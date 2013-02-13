@@ -4,7 +4,7 @@
   <title><![CDATA[$ env]]></title>
   <link href="http://slith76.github.com/envblog/atom.xml" rel="self"/>
   <link href="http://slith76.github.com/envblog/"/>
-  <updated>2013-02-13T10:02:53+01:00</updated>
+  <updated>2013-02-13T10:10:21+01:00</updated>
   <id>http://slith76.github.com/envblog/</id>
   <author>
     <name><![CDATA[slith76]]></name>
@@ -32,7 +32,7 @@
 }
 </code></pre>
 
-<h3>Usage</h3>
+<h3>Usage:</h3>
 
 <p>add a new bookmark:</p>
 
