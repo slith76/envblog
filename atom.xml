@@ -4,7 +4,7 @@
   <title><![CDATA[$ env]]></title>
   <link href="http://slith76.github.com/envblog/atom.xml" rel="self"/>
   <link href="http://slith76.github.com/envblog/"/>
-  <updated>2013-02-13T10:10:21+01:00</updated>
+  <updated>2013-02-19T11:15:34+01:00</updated>
   <id>http://slith76.github.com/envblog/</id>
   <author>
     <name><![CDATA[slith76]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mac ZSH oh-my-zsh]]></title>
+    <link href="http://slith76.github.com/envblog/blog/2013/02/13/mac-zsh-oh-my-zsh/"/>
+    <updated>2013-02-13T12:21:00+01:00</updated>
+    <id>http://slith76.github.com/envblog/blog/2013/02/13/mac-zsh-oh-my-zsh</id>
+    <content type="html"><![CDATA[<h2>ZSH:</h2>
+
+<h3>Install:</h3>
+
+<pre><code>    brew install zsh
+</code></pre>
+
+<h3>Change the Default Shell:</h3>
+
+<p>Mac: Systemeinstellungen - Benutzer - Erweiterte Optionen beim Nutzer (unlocked!)</p>
+
+<h3>oh-my-zsh</h3>
+
+<p><a href="https://github.com/robbyrussell/oh-my-zsh">https://github.com/robbyrussell/oh-my-zsh</a></p>
+
+<pre><code>    git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+    cp ~/.zshrc ~/.zshrc.orig
+    cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+    #chsh -s /bin/zsh ##set the default shell
+</code></pre>
+
+<h4>Usage:</h4>
+
+<p>Themes: https://github.com/robbyrussell/oh-my-zsh/wiki/themes</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[cdargs]]></title>
