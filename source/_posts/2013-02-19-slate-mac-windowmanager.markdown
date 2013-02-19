@@ -3,7 +3,7 @@ layout: post
 title: "Slate: Mac Windowmanager"
 date: 2013-02-19 11:16
 comments: true
-categories:links 
+categories: links 
 ---
 ## Slate 
 
