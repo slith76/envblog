@@ -4,7 +4,7 @@
   <title><![CDATA[$ env]]></title>
   <link href="http://slith76.github.com/envblog/atom.xml" rel="self"/>
   <link href="http://slith76.github.com/envblog/"/>
-  <updated>2013-02-19T11:31:01+01:00</updated>
+  <updated>2013-02-21T14:57:50+01:00</updated>
   <id>http://slith76.github.com/envblog/</id>
   <author>
     <name><![CDATA[slith76]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[USB tethering driver for Mac OS X]]></title>
+    <link href="http://slith76.github.com/envblog/blog/2013/02/21/usb-tethering-driver-for-mac-os-x/"/>
+    <updated>2013-02-21T14:56:00+01:00</updated>
+    <id>http://slith76.github.com/envblog/blog/2013/02/21/usb-tethering-driver-for-mac-os-x</id>
+    <content type="html"><![CDATA[<h2>Android-Mac Tethering via USB</h2>
+
+<pre><code>... HoRNDIS (pronounce: “horrendous”) is a driver for Mac OS X that allows you to use your Android phone's native USB tethering mode to get Internet access. ...
+</code></pre>
+
+<p><a href="http://www.joshuawise.com/horndis">http://www.joshuawise.com/horndis</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Slate: Mac Windowmanager]]></title>
